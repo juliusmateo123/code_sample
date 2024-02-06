@@ -1,0 +1,86 @@
+.single_page span {
+    vertical-align: middle;
+}
+.profile-image-area {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.profile-image-area .profile-round {
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 3px solid #fff;
+}
+
+.profile-image-area p.twitter-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.profile-image-area p.twitter-link a {
+    font-size: 24px; 
+    transition: all ease-in-out;
+}
+.profile-image-area p.twitter-link a:hover svg {
+    transform: rotate(15deg);
+}
+.profile-image-area p.twitter-link a svg path {
+    color: #00acee;
+}
+
+.profile-image-area .profile-round img {
+    width: 160px;
+    height: 160px;
+}
+
+.twitterstats { padding: 0; font-size: 16px; }
+.twitterstats * { color: #000; }
+.twitterstats a { float: none!important; }
+
+.twitterstats .profile-info { padding: 40px 30px 0; }
+.twitterstats .profile-info h3,
+.twitterstats .profile-info h6 { margin: 0; color: #000; float: none; }
+
+.twitterstats .profile-info h3 { font-size: 24px; margin-bottom: 5px; }
+.twitterstats .profile-info h6 { font-size: 16px; }
+.twitterstats .profile-info p { margin: 10px 0 20px; }
+
+.twitterstats .basic-info { padding: 0 30px; }
+.twitterstats .basic-info svg { margin-right: 8px; }
+.twitterstats .basic-info .row >  div { margin-bottom: 15px; }
+
+.create-tweet { margin: 30px 0; padding: 0  30px 0 0; }
+.create-tweet form .ct-img { width: 90px; float: left; text-align: center; }
+.create-tweet form .ct-textarea { float: left; width: calc(100% - 90px); }
+.create-tweet form .ct-textarea textarea { height : 140px; }
+.create-tweet form .ct-img img { float: none; width: auto; height: auto; }
+.create-tweet form .button-tweet { float: right; }
+.create-tweet form .button-tweet p { margin-top: 20px; margin-right: 20px; float: left; }
+.create-tweet form button { color: #fff; font-weight: 700; background-color: rgb(29, 161, 242); padding: 10px 15px; border: none; border-radius: 25px; margin-top: 10px; outline: none; }
+.create-tweet form button:disabled { background-color: rgba(29, 161, 242, 0.5);}
+
+.tweet-area { padding: 0 30px; }
+.tweet-area .tweet-item { margin-bottom: 30px; padding-bottom: 10px; border-bottom: 1px solid #ccc; }
+.tweet-area .tweet-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.tweet-area .tweet-item .tweet-user,
+.tweet-area .tweet-item .tweet-container { float: left; }
+.tweet-area .tweet-item .tweet-user img { width: auto; height: auto; float: none ;}
+.tweet-area .tweet-item .tweet-user p { margin-top: 8px; font-size: 12px; }
+.tweet-area .tweet-item .tweet-user { width: 100px; text-align: center; }
+.tweet-area .tweet-item .tweet-container { width: calc(100% - 100px)}
+
+.tweet-area .tweet-item .tweet-container small { display: block; margin-bottom: 10px; }
+.tweet-area .tweet-item .tweet-container ul { margin-top: 10px; padding-left: 0; }
+.tweet-area .tweet-item .tweet-container ul li { display: inline-block; }
+.tweet-area .tweet-item .tweet-container ul li { font-size: 12px; }
+.tweet-area .tweet-item .tweet-container ul.hash-list { margin-top: 5px; }
+.tweet-area .tweet-item .tweet-container ul.hash-list li { color: rgb(29, 161, 242); }
+
+.dashboard-disconnect { margin: 30px 0 10px; padding-top: 20px; border-top: 1px solid #ccc; }
